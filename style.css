@@ -109,11 +109,14 @@ nav h3 span{
 }
 
 /* about-style */
-.about{
+section{
     max-width: 1140px;
     max-height: 550px;
     margin: 100px auto;
     text-align: center;
+}
+.about{
+    
     padding: 150px;
     
 }
@@ -138,4 +141,31 @@ nav h3 span{
     font-weight: bold;
     margin-top: 0;
     padding-bottom: 0;
+}
+
+/* Skills Section */
+.skills-container-box{
+    display: flex;
+    margin-top: 50px;
+}
+.skills{
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    width: 267px;
+    height: 380px;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
+.skill-description{
+    margin: 3px;
+}
+.skills img{
+    margin: 3px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-bottom: 40px;
+    
 }
