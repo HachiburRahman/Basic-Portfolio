@@ -206,3 +206,56 @@ section{
     border: none;
     margin: 50px;
 }
+
+
+/* Footer Style */
+
+footer{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    gap: 70px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-column-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+footer input[type="text"],input[type="email"]{
+    width: 460px;
+    height: 65px;
+    background-color: white;
+    border-radius: 5px;
+    border  :none  ;
+    font-size: 16px;
+    padding: 3px 20px;
+    margin-bottom: 10px;
+}
+
+footer textarea{
+    width: 460px;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px;
+    border  :none  ;
+    font-size: 16px;
+    padding: 3px 20px;
+}
+footer input[type="submit"]
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin: 20px auto;
+    display: block;
+}
+
