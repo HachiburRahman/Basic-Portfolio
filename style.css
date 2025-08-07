@@ -29,6 +29,9 @@ header{
 .Dark02{
     color: #474747;
 }
+.Dark03{
+    color: #757575;
+}
 
 nav{
     display: flex;
@@ -168,4 +171,38 @@ section{
     margin-left: 3px;
     margin-bottom: 40px;
     
+}
+
+
+/* Resume style */
+
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-container-column-box{
+    text-align: left;
+}
+.resume-container-column-box-description{
+    color: #757575;
+    /* margin-top: 5px; */
+}
+.resume-container-column-box-place{
+    color: #757575;
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.resume-container-column-box-title{
+    margin-bottom: 5px;
+}
+.btn4{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin: 50px;
 }
